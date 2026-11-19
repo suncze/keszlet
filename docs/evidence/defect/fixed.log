@@ -1,0 +1,6 @@
+test_06_low_stock_includes_threshold (tests.test_inventory.InventoryTests.test_06_low_stock_includes_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK

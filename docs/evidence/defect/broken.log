@@ -1,0 +1,15 @@
+test_06_low_stock_includes_threshold (tests.test_inventory.InventoryTests.test_06_low_stock_includes_threshold) ... FAIL
+
+======================================================================
+FAIL: test_06_low_stock_includes_threshold (tests.test_inventory.InventoryTests.test_06_low_stock_includes_threshold)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/var/folders/m5/8kf91xyn7s130x2xpy10d0k80000gn/T/keszlet-defect-3mj254yz/tests/test_inventory.py", line 70, in test_06_low_stock_includes_threshold
+    self.assertTrue(p["is_low"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

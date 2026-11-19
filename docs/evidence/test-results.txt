@@ -1,0 +1,49 @@
+test_allowed_cors_origin (tests.test_http.HTTPTests.test_allowed_cors_origin) ... ok
+test_content_type_and_size (tests.test_http.HTTPTests.test_content_type_and_size) ... ok
+test_frontend_and_runtime_configuration (tests.test_http.HTTPTests.test_frontend_and_runtime_configuration) ... ok
+test_frontend_does_not_expose_database (tests.test_http.HTTPTests.test_frontend_does_not_expose_database) ... ok
+test_full_product_and_movement_flow_through_http (tests.test_http.HTTPTests.test_full_product_and_movement_flow_through_http) ... ok
+test_json_array_is_rejected (tests.test_http.HTTPTests.test_json_array_is_rejected) ... ok
+test_malformed_json (tests.test_http.HTTPTests.test_malformed_json) ... ok
+test_put_preserves_stock (tests.test_http.HTTPTests.test_put_preserves_stock) ... ok
+test_unknown_endpoint_and_health (tests.test_http.HTTPTests.test_unknown_endpoint_and_health) ... ok
+test_untrusted_origin_cannot_mutate_stock (tests.test_http.HTTPTests.test_untrusted_origin_cannot_mutate_stock) ... ok
+test_validation_error_is_json (tests.test_http.HTTPTests.test_validation_error_is_json) ... ok
+test_01_create_product_and_opening_log (tests.test_inventory.InventoryTests.test_01_create_product_and_opening_log) ... ok
+test_02_invalid_name_duplicate_sku_and_negative_stock (tests.test_inventory.InventoryTests.test_02_invalid_name_duplicate_sku_and_negative_stock) ... ok
+test_03_intake_10_plus_5_is_15_and_logged (tests.test_inventory.InventoryTests.test_03_intake_10_plus_5_is_15_and_logged) ... ok
+test_04_invalid_issues_leave_stock_and_log_unchanged (tests.test_inventory.InventoryTests.test_04_invalid_issues_leave_stock_and_log_unchanged) ... ok
+test_04_issue_all_stock_is_allowed (tests.test_inventory.InventoryTests.test_04_issue_all_stock_is_allowed) ... ok
+test_05_movements_keep_product_type_quantity_and_time (tests.test_inventory.InventoryTests.test_05_movements_keep_product_type_quantity_and_time) ... ok
+test_06_low_stock_includes_threshold (tests.test_inventory.InventoryTests.test_06_low_stock_includes_threshold) ... ok
+test_06_zero_stock_and_zero_minimum_is_low (tests.test_inventory.InventoryTests.test_06_zero_stock_and_zero_minimum_is_low) ... ok
+test_07_reorder_never_negative (tests.test_inventory.InventoryTests.test_07_reorder_never_negative) ... ok
+test_07_reorder_specification_example_is_14 (tests.test_inventory.InventoryTests.test_07_reorder_specification_example_is_14) ... ok
+test_07_zero_usage_and_lead_time (tests.test_inventory.InventoryTests.test_07_zero_usage_and_lead_time) ... ok
+test_08_restart_preserves_products_and_movements (tests.test_inventory.InventoryTests.test_08_restart_preserves_products_and_movements) ... ok
+test_concurrent_issues_cannot_oversell (tests.test_inventory.InventoryTests.test_concurrent_issues_cannot_oversell) ... ok
+test_date_filter_uses_budapest_midnight (tests.test_inventory.InventoryTests.test_date_filter_uses_budapest_midnight) ... ok
+test_edit_duplicate_sku_is_atomic (tests.test_inventory.InventoryTests.test_edit_duplicate_sku_is_atomic) ... ok
+test_failed_log_insert_rolls_back_stock (tests.test_inventory.InventoryTests.test_failed_log_insert_rolls_back_stock) ... ok
+test_invalid_log_filters_rejected (tests.test_inventory.InventoryTests.test_invalid_log_filters_rejected) ... ok
+test_invalid_parameters_are_rejected (tests.test_inventory.InventoryTests.test_invalid_parameters_are_rejected) ... ok
+test_invalid_payloads_and_extra_fields_rejected (tests.test_inventory.InventoryTests.test_invalid_payloads_and_extra_fields_rejected) ... ok
+test_metadata_edit_cannot_modify_stock (tests.test_inventory.InventoryTests.test_metadata_edit_cannot_modify_stock) ... ok
+test_movement_log_is_immutable_in_database (tests.test_inventory.InventoryTests.test_movement_log_is_immutable_in_database) ... ok
+test_parallel_duplicate_submission_is_applied_once (tests.test_inventory.InventoryTests.test_parallel_duplicate_submission_is_applied_once) ... ok
+test_retried_movement_is_idempotent (tests.test_inventory.InventoryTests.test_retried_movement_is_idempotent) ... ok
+test_search_and_type_and_pagination (tests.test_inventory.InventoryTests.test_search_and_type_and_pagination) ... ok
+test_sql_metacharacters_are_data (tests.test_inventory.InventoryTests.test_sql_metacharacters_are_data) ... ok
+test_stock_maximum_enforced (tests.test_inventory.InventoryTests.test_stock_maximum_enforced) ... ok
+test_unknown_product (tests.test_inventory.InventoryTests.test_unknown_product) ... ok
+test_extreme_and_non_ascii_product_id_is_not_server_error (tests.test_review.ReviewTests.test_extreme_and_non_ascii_product_id_is_not_server_error) ... ok
+test_extreme_date_is_validation_error_not_server_error (tests.test_review.ReviewTests.test_extreme_date_is_validation_error_not_server_error) ... ok
+test_extreme_query_numbers_do_not_crash_sqlite (tests.test_review.ReviewTests.test_extreme_query_numbers_do_not_crash_sqlite) ... ok
+test_invalid_intakes_leave_stock_and_log_unchanged (tests.test_review.ReviewTests.test_invalid_intakes_leave_stock_and_log_unchanged) ... ok
+test_real_process_restart_preserves_all_saved_data (tests.test_review.ReviewTests.test_real_process_restart_preserves_all_saved_data) ... ok
+test_sku_limit_applies_after_uppercase_normalization (tests.test_review.ReviewTests.test_sku_limit_applies_after_uppercase_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.331s
+
+OK

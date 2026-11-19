@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-19T21:10:10.596543+00:00",
+  "python": "3.14.8",
+  "sqlite": "3.53.4",
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-v"
+  ],
+  "exit_code": 0,
+  "tests_run": 44,
+  "checks": {
+    "specification_characters": 2787,
+    "specification_within_4000": true,
+    "acceptance_criteria_numbered_1_through_8": true,
+    "python_syntax_errors": []
+  },
+  "browser_test": "Not performed: local TCP binding was denied by the execution environment."
+}

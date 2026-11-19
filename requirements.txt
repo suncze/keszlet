@@ -1,0 +1,2 @@
+# Python 3.11+; kizárólag a standard könyvtárat használja.
+# Nincs pip-pel telepítendő függőség.

@@ -1,0 +1,1 @@
+"""Készletkezelő REST API."""
